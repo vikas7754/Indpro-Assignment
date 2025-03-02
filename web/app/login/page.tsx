@@ -3,6 +3,11 @@ import { GalleryVerticalEnd } from "lucide-react";
 import { LoginForm } from "@/components/login-form";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Login",
+  description: "Login to Task Manager",
+};
+
 export default function LoginPage() {
   return (
     <div className="bg-muted flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10">
@@ -14,7 +19,7 @@ export default function LoginPage() {
           <div className="bg-primary text-primary-foreground flex size-6 items-center justify-center rounded-md">
             <GalleryVerticalEnd className="size-4" />
           </div>
-          Acme Inc.
+          Task Manager
         </Link>
         <LoginForm />
       </div>

@@ -9,6 +9,15 @@ interface Props {
   params: Params;
 }
 
+export const generateMetadata = async ({ params }: { params: Params }) => {
+  const { id } = await params;
+
+  return {
+    title: "Update Task",
+    description: "Update a task",
+  };
+};
+
 const Page: FC<Props> = async ({ params }) => {
   const { id: taskId } = await params;
   const task = await getTaskById(taskId);

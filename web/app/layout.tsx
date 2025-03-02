@@ -16,7 +16,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Task Manager - Indpro",
+  title: {
+    template: "%s | Task Manager",
+    default: "Task Manager - Indpro",
+  },
   description: "Task Manager to manage your tasks",
 };
 
