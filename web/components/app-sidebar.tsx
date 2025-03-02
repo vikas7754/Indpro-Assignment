@@ -64,8 +64,8 @@ const data = {
           url: "/categories/development",
         },
         {
-          title: "Bug Fixes",
-          url: "/categories/bug-fixes",
+          title: "Debugging",
+          url: "/categories/debugging",
         },
         {
           title: "Other",
