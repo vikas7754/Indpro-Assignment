@@ -66,6 +66,63 @@ For running in production mode
 npm run build && npm run start
 ```
 
+## Tools & Technologies used
+
+### In Server
+
+- bcrypt
+- body-parser
+- cookie-parser
+- cors
+- dotenv
+- express
+- jsonwebtoken
+- mongoose
+- multer
+- validator
+- @babel/cli
+- @babel/core
+- @babel/preset-env
+- @babel/register
+- babel-plugin-module-resolver
+- concurrently
+- nodemon
+- sharp
+
+### In Frontend
+
+- @hookform/resolvers
+- @radix-ui/react-avatar
+- @radix-ui/react-checkbox
+- @radix-ui/react-collapsible
+- @radix-ui/react-dialog
+- @radix-ui/react-dropdown-menu
+- @radix-ui/react-label
+- @radix-ui/react-popover
+- @radix-ui/react-select
+- @radix-ui/react-separator
+- @radix-ui/react-slot
+- @radix-ui/react-tooltip
+- @reduxjs/toolkit
+- @tanstack/react-table
+- axios
+- class-variance-authority
+- clsx
+- cmdk
+- date-fns
+- lucide-react
+- next
+- next-themes
+- react
+- react-day-picker
+- react-dom
+- react-hook-form
+- react-redux
+- sonner
+- tailwind-merge
+- tailwindcss-animate
+- zod
+
 > If you are getting any error or need any support conatct me: vikask4590@gmail.com or send enquiry through my portfolio https://vikask.in
 
 Thank You!
