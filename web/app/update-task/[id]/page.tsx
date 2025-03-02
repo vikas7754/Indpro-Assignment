@@ -3,10 +3,10 @@ import React, { FC } from "react";
 import TaskForm from "@/UI/TaskForm";
 import { getTaskById } from "@/actions/task";
 
+type Params = Promise<{ id: string }>;
+
 interface Props {
-  params: {
-    id: string;
-  };
+  params: Params;
 }
 
 const Page: FC<Props> = async ({ params }) => {

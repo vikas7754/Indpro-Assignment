@@ -3,10 +3,10 @@ import TaskDetail from "@/UI/DaskDetail";
 import Layout from "@/UI/layout";
 import React, { FC } from "react";
 
+type Params = Promise<{ id: string }>;
+
 interface Props {
-  params: {
-    id: string;
-  };
+  params: Params;
 }
 
 const Page: FC<Props> = async ({ params }) => {

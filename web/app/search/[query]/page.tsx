@@ -4,10 +4,10 @@ import { columns } from "@/UI/data-table/columns";
 import Layout from "@/UI/layout";
 import React, { FC } from "react";
 
+type Params = Promise<{ query: string }>;
+
 interface Props {
-  params: {
-    query: string;
-  };
+  params: Params;
 }
 
 const Page: FC<Props> = async ({ params }) => {
