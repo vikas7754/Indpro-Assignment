@@ -10,15 +10,6 @@ interface Props {
   params: Params;
 }
 
-export const generateMetadata = async ({ params }: { params: Params }) => {
-  const { query } = await params;
-
-  return {
-    title: `Search: ${query}`,
-    description: `Search results for ${query}`,
-  };
-};
-
 const Page: FC<Props> = async ({ params }) => {
   const { query } = await params;
   const tasks = await searchTasksByQuery(query);

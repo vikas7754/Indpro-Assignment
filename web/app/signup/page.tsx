@@ -3,11 +3,6 @@ import { GalleryVerticalEnd } from "lucide-react";
 import { SignupForm } from "@/components/signup-form";
 import Link from "next/link";
 
-export const metadata = {
-  title: "Signup",
-  description: "Signup to Task Manager",
-};
-
 export default function SignupPage() {
   return (
     <div className="bg-muted flex min-h-svh flex-col items-center justify-center gap-6 p-6 md:p-10">
